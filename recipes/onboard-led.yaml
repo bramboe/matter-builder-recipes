@@ -1,0 +1,12 @@
+# The LED most classic ESP32 boards carry on GPIO 2, as a dimmable light:
+# a first test that a board works with Matter Builder.
+device:
+  name: Onboard LED
+  app: generic
+  board: esp32
+
+connections:
+  - slot: 0
+    type: led
+    pin: 2
+    name: Onboard LED
